@@ -1,0 +1,17 @@
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environments
+.env ## --> stores global defined variables
+
+## Data files
+*.txt
+*.csv
+
+## Files 
+git_commands.ipynb
+
+## Folders 
+sample_data
+drive
+.config
