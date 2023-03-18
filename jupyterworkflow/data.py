@@ -24,9 +24,9 @@ def get_loan_data(base_path, kaggle_dataset=None, kaggle_credentials=None):
     test = pd.read_csv(os.path.join(base_path, 'test_Y3wMUE5_7gLdaTN.csv'))
   except FileNotFoundError: 
     if kaggle_dataset==None or kaggle_credentials==None:
-      print('Dataset Files Not Found!')
-      print('You may rerun the function, including the right dataset name and credentials to download them from Kaggle')
-      return None, None
+      raise Exception("Dataset Files Not Found!\n\
+        You may rerun the function, including the right dataset name and credentials to download them from Kaggle")
+
 
     ## Create a Kaggle API
     if not os.path.exists('/root/.kaggle'):
