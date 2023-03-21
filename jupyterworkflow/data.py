@@ -46,6 +46,4 @@ def get_loan_data(base_path, kaggle_dataset=None, kaggle_credentials=None):
         api.dataset_download_file(kaggle_dataset, str(file_), path=base_path)
     train = pd.read_csv(os.path.join(base_path, 'train_u6lujuX_CVtuZ9i.csv'))
     test = pd.read_csv(os.path.join(base_path, 'test_Y3wMUE5_7gLdaTN.csv'))
-  print(f'Found {train.shape[0]} records in the train set with {train.shape[1]} columns')
-  print(f'Found {test.shape[0]} records in the test set with {test.shape[1]} columns')
   return train, test
