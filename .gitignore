@@ -19,3 +19,8 @@ git_commands.ipynb
 sample_data
 drive
 .config
+# Unit testing
+.pytest_cache
+
+## Training
+catboost_info
