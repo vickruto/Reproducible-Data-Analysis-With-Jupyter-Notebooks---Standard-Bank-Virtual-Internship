@@ -14,3 +14,35 @@ This is my first foray into reproducible workflows (been using notebooks for alm
 This [`Cookiecutter Data Science article`](http://drivendata.github.io/cookiecutter-data-science/) gives a high level overview of why a structured process approach is necessary for data science work.
 
 A lot is borrowed from this [Youtube tutorial series](https://www.youtube.com/playlist?list=PLYCpMb24GpOC704uO9svUrihl-HY1tTJJ) by Jake Vanderplas
+
+# This pipeline was automatically generated
+
+## Setup
+
+```sh
+pip install -r requirements.txt
+```
+
+## Usage
+
+List tasks:
+
+```sh
+ploomber status
+```
+
+Execute:
+
+```sh
+ploomber build
+```
+
+Plot:
+
+```sh
+ploomber plot
+```
+
+## Resources
+
+* [Ploomber documentation](https://docs.ploomber.io)

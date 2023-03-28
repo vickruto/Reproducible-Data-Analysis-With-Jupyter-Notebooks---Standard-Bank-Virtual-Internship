@@ -1,0 +1,38 @@
+tasks:
+
+- source: tasks/problem-statement.ipynb
+  product:
+    nb: output/problem-statement.ipynb
+
+- source: tasks/get-data.ipynb
+  product:
+    df: output/get-data-df.pkl
+    train: output/get-data-train.pkl
+    nb: output/get-data.ipynb
+
+- source: tasks/sweetviz-autoeda.ipynb
+  product:
+    nb: output/sweetviz-autoeda.ipynb
+
+- source: tasks/bespoke-eda.ipynb
+  product:
+    X_train: output/bespoke-eda-X_train.pkl
+    categorical_columns: output/bespoke-eda-categorical_columns.pkl
+    y: output/bespoke-eda-y.pkl
+    y_train: output/bespoke-eda-y_train.pkl
+    X: output/bespoke-eda-X.pkl
+    nb: output/bespoke-eda.ipynb
+
+- source: tasks/data-preparation.ipynb
+  product:
+    y_val: output/data-preparation-y_val.pkl
+    X_train: output/data-preparation-X_train.pkl
+    y_train: output/data-preparation-y_train.pkl
+    X_val: output/data-preparation-X_val.pkl
+    nb: output/data-preparation.ipynb
+
+- source: tasks/scikit-learn-bespoke-ml.ipynb
+  product:
+    X_train: output/scikit-learn-bespoke-ml-X_train.pkl
+    X_val: output/scikit-learn-bespoke-ml-X_val.pkl
+    nb: output/scikit-learn-bespoke-ml.ipynb
