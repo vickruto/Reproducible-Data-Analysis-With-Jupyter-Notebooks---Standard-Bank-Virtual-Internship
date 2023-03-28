@@ -10,7 +10,7 @@ __pycache__/
 
 ## Data files
 *.txt
-*.csv
+## *.csv temporarily commit the data files to github
 
 ## Files 
 git_commands.ipynb
@@ -19,6 +19,7 @@ git_commands.ipynb
 sample_data
 drive
 .config
+
 # Unit testing
 .pytest_cache
 
