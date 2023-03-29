@@ -26,4 +26,5 @@ drive
 ## Training
 catboost_info
 
+## ploomber pipeline output
 output

@@ -1,38 +1,42 @@
 tasks:
 
-- source: tasks/problem-statement.ipynb
+- source: tasks/problem-statement.py
   product:
     nb: output/problem-statement.ipynb
 
-- source: tasks/get-data.ipynb
+- source: tasks/section-01-get-data.py
   product:
-    df: output/get-data-df.pkl
-    train: output/get-data-train.pkl
-    nb: output/get-data.ipynb
+    train: output/section-01-get-data-train.pkl
+    df: output/section-01-get-data-df.pkl
+    nb: output/section-01-get-data.ipynb
 
-- source: tasks/sweetviz-autoeda.ipynb
+- source: tasks/section-02-sweetviz-autoeda.py
   product:
-    nb: output/sweetviz-autoeda.ipynb
+    nb: output/section-02-sweetviz-autoeda.ipynb
 
-- source: tasks/bespoke-eda.ipynb
+- source: tasks/section-03-bespoke-eda.py
   product:
-    X_train: output/bespoke-eda-X_train.pkl
-    categorical_columns: output/bespoke-eda-categorical_columns.pkl
-    y: output/bespoke-eda-y.pkl
-    y_train: output/bespoke-eda-y_train.pkl
-    X: output/bespoke-eda-X.pkl
-    nb: output/bespoke-eda.ipynb
+    nb: output/section-03-bespoke-eda.ipynb
 
-- source: tasks/data-preparation.ipynb
+- source: tasks/section-04-autosklearn-auto-ml.py
   product:
-    y_val: output/data-preparation-y_val.pkl
-    X_train: output/data-preparation-X_train.pkl
-    y_train: output/data-preparation-y_train.pkl
-    X_val: output/data-preparation-X_val.pkl
-    nb: output/data-preparation.ipynb
+    categorical_columns: output/section-04-autosklearn-auto-ml-categorical_columns.pkl
+    X_train: output/section-04-autosklearn-auto-ml-X_train.pkl
+    X: output/section-04-autosklearn-auto-ml-X.pkl
+    y_train: output/section-04-autosklearn-auto-ml-y_train.pkl
+    y: output/section-04-autosklearn-auto-ml-y.pkl
+    nb: output/section-04-autosklearn-auto-ml.ipynb
 
-- source: tasks/scikit-learn-bespoke-ml.ipynb
+- source: tasks/section-05-data-preparation.py
   product:
-    X_train: output/scikit-learn-bespoke-ml-X_train.pkl
-    X_val: output/scikit-learn-bespoke-ml-X_val.pkl
-    nb: output/scikit-learn-bespoke-ml.ipynb
+    X_val: output/section-05-data-preparation-X_val.pkl
+    X_train: output/section-05-data-preparation-X_train.pkl
+    y_train: output/section-05-data-preparation-y_train.pkl
+    y_val: output/section-05-data-preparation-y_val.pkl
+    nb: output/section-05-data-preparation.ipynb
+
+- source: tasks/section-06-scikit-learn-bespoke-ml.py
+  product:
+    X_val: output/section-06-scikit-learn-bespoke-ml-X_val.pkl
+    X_train: output/section-06-scikit-learn-bespoke-ml-X_train.pkl
+    nb: output/section-06-scikit-learn-bespoke-ml.ipynb
