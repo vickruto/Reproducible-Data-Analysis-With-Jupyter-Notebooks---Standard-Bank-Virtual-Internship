@@ -35,8 +35,30 @@ tasks:
     y_val: output/section-05-data-preparation-y_val.pkl
     nb: output/section-05-data-preparation.ipynb
 
-- source: tasks/section-06-scikit-learn-bespoke-ml.py
+- source: tasks/section-06a-bespoke-decision-tree.py
   product:
-    X_val: output/section-06-scikit-learn-bespoke-ml-X_val.pkl
-    X_train: output/section-06-scikit-learn-bespoke-ml-X_train.pkl
-    nb: output/section-06-scikit-learn-bespoke-ml.ipynb
+    nb: output/section-06-bespoke-decision-tree.ipynb
+
+- source: tasks/section-06b-bespoke-adaboost.py
+  product:
+    nb: output/section-06b-bespoke-adaboost.ipynb
+
+- source: tasks/section-06c-bespoke-svc.py
+  product:
+    nb: output/section-06c-bespoke-svc.ipynb
+
+- source: tasks/section-06d-bespoke-logistic-regression.py
+  product:
+    nb: output/section-06d-bespoke-logistic-regression.ipynb
+
+- source: tasks/section-06e-bespoke-lightgbm.py
+  product:
+    nb: output/section-06e-bespoke-lightgbm.ipynb
+
+- source: tasks/section-06f-bespoke-catboost.py
+  product:
+    nb: output/section-06f-bespoke-catboost.ipynb
+
+- source: tasks/section-06g-bespoke-xgboost.py
+  product:
+    nb: output/section-06d-bespoke-xgboost.ipynb
