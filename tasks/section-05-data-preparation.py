@@ -45,6 +45,7 @@ X_train, X_val, y_train, y_val = train_test_split(train.drop(columns=['Loan_ID',
 # %% id="nQw-9zvPK68R"
 X_train, X_val, y_train, y_val = train_test_split(X_oh_encoded, y)
 
+
 # %% tags=["soorgeon-pickle"]
 Path(product['X_train']).parent.mkdir(exist_ok=True, parents=True)
 Path(product['X_train']).write_bytes(pickle.dumps(X_train))
