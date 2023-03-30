@@ -16,7 +16,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder, OrdinalEncoder
 from xgboost import XGBClassifier
 from catboost import CatBoostClassifier
 from lightgbm import LGBMClassifier
-  import sklearn
+import sklearn
 from sklearn.svm import SVC
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.tree import DecisionTreeClassifier
@@ -67,6 +67,7 @@ print("\nConfusion matrix : \n", confusion_matrix(lgbm.predict(X_val), y_val))
 
 # %% id="kUrCfRIuLP0c"
 ## Some sklearn classifiers we can try
+
 try:
 
 
