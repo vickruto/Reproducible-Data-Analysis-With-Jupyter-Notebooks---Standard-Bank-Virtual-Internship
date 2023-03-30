@@ -28,3 +28,4 @@ catboost_info
 
 ## ploomber pipeline output
 output
+!output/*ipynb  #--> upload the output notebooks for now
