@@ -9,6 +9,7 @@ tasks:
     train: output/section-01-get-data-train.pkl
     df: output/section-01-get-data-df.pkl
     nb: output/section-01-get-data.ipynb
+  on_finish : integration_tests.test_loan_data
 
 - source: tasks/section-02-sweetviz-autoeda.py
   product:
