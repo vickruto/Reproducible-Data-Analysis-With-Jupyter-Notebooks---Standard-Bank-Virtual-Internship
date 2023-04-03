@@ -35,6 +35,15 @@ tasks:
     y_val: output/section-05-data-preparation-y_val.pkl
     nb: output/section-05-data-preparation.ipynb
 
+- source: tasks/section-05b-standardize-features.py
+  product:
+    X_val: output/section-05b-standardize-features-X_val.pkl
+    X_train: output/section-05b-standardize-features-X_train.pkl
+    y_train: output/section-05b-standardize-features-y_train.pkl
+    y_val: output/section-05b-standardize-features-y_val.pkl
+    nb: output/section-05b-standardize-features.ipynb
+
+
 - source: tasks/section-06a-bespoke-decision-tree.py
   product:
     nb: output/section-06-bespoke-decision-tree.ipynb
@@ -61,4 +70,4 @@ tasks:
 
 - source: tasks/section-06g-bespoke-xgboost.py
   product:
-    nb: output/section-06d-bespoke-xgboost.ipynb
+    nb: output/section-06g-bespoke-xgboost.ipynb
