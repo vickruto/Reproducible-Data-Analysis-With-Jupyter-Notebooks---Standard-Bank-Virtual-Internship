@@ -13,7 +13,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.model_selection import train_test_split
 for i in range(2):
   try:
-    import autosklearn
     from autosklearn.classification import AutoSklearnClassifier
   except:
     pass

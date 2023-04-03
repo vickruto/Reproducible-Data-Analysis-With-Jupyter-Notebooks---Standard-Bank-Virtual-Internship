@@ -1,7 +1,6 @@
 
 # %% tags=["soorgeon-imports"]
 from sklearn.metrics import accuracy_score, confusion_matrix
-from sklearn.tree import DecisionTreeClassifier
 from pathlib import Path
 import pickle
 from sklearn.linear_model import LogisticRegression
