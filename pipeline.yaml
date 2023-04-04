@@ -1,9 +1,5 @@
 tasks:
 
-- source: tasks/problem-statement.py
-  product:
-    nb: output/problem-statement.ipynb
-
 - source: tasks/section-01-get-data.py
   product:
     train: output/section-01-get-data-train.pkl
