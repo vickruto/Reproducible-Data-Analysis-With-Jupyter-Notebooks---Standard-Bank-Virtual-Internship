@@ -1,0 +1,9 @@
+sweetviz
+ydata_profiling
+auto-sklearn
+deepchecks
+catboost
+ploomber
+soorgeon
+nbdime
+black
