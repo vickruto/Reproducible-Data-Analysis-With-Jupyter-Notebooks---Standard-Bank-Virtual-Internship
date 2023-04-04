@@ -15,6 +15,10 @@ tasks:
   product:
     nb: output/section-02-sweetviz-autoeda.ipynb
 
+- source: tasks/section-02b-pandas-profiling-report.py
+  product:
+    nb: output/section-02b-pandas-profiling-report.ipynb
+
 - source: tasks/section-03-bespoke-eda.py
   product:
     nb: output/section-03-bespoke-eda.ipynb
